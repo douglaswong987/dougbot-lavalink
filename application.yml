@@ -16,6 +16,11 @@ plugins:
     oauth:
       enabled: true
       refreshToken: ${YOUTUBE_REFRESH_TOKEN:}
+    allowOAuthClients:
+      - TVHTML5_SIMPLY
+      - MUSIC
+      - WEB
+      - ANDROID_VR
 
 lavalink:
   server:
