@@ -1,6 +1,8 @@
-FROM eclipse-temurin:17-jre-alpine
+FROM eclipse-temurin:17-jre-jammy
 
 WORKDIR /opt/Lavalink
+
+RUN apt-get update && apt-get install -y wget && rm -rf /var/lib/apt/lists/*
 
 RUN wget -q -O Lavalink.jar \
     https://github.com/lavalink-devs/Lavalink/releases/download/4.2.2/Lavalink.jar
