@@ -16,9 +16,7 @@ plugins:
       - ANDROID_VR
     oauth:
       enabled: true
-      # After first boot, Railway logs will show a Google device auth URL and code.
-      # Complete the flow, then paste the refresh token below and uncomment it:
-      # refreshToken: "paste_your_refresh_token_here"
+      refreshToken: "1//060sGOySKeuofCgYIARAAGAYSNwF-L9IrBVNUdodi6KHdv5xGW0oiacXgkE08rZK2sfwNLxseg6CjqAd6ZUhrjArnfnKAwHPzkuI"
 
 lavalink:
   server:
