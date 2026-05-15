@@ -10,13 +10,12 @@ plugins:
     allowDirectPlaylistIds: true
     clients:
       - TVHTML5_SIMPLY
-      - WEB_REMIX
       - MUSIC
       - WEB
       - ANDROID_VR
     oauth:
       enabled: true
-      refreshToken: "1//060sGOySKeuofCgYIARAAGAYSNwF-L9IrBVNUdodi6KHdv5xGW0oiacXgkE08rZK2sfwNLxseg6CjqAd6ZUhrjArnfnKAwHPzkuI"
+      refreshToken: ${YOUTUBE_REFRESH_TOKEN:}
 
 lavalink:
   server:
